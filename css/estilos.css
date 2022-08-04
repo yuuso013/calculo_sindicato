@@ -10,12 +10,20 @@
       "boton1 boton2 boton3"
       "boton4 boton5 boton6";
 }
-  
+
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .presentacion { 
     grid-area: presentacion;
     text-align: center;
 }
-  
+
 .texto_presentacion {
     grid-area: texto_presentacion;
     text-align: center;
