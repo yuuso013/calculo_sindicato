@@ -22,42 +22,51 @@ p {
 .presentacion { 
     grid-area: presentacion;
     text-align: center;
+    border-style:dashed;
 }
 
 .texto_presentacion {
     grid-area: texto_presentacion;
     text-align: center;
+    border-style:dashed;
 }
 
 .boton1 { 
     grid-area: boton1;
     text-align: center;
+    border-style:dashed;
 }
   
 .boton2 { 
     grid-area: boton2;
     text-align: center;
+    border-style:dashed;
 }
   
 .boton3 { 
     grid-area: boton3;
     text-align: center;
+    border-style:dashed;
 }
   
 .boton4 {
     grid-area: boton4;
     text-align: center;
+    border-style:dashed;
 }
   
 .boton5 {
     grid-area: boton5;
     text-align: center;
+    border-style:dashed;
 }
   
 .boton6 { 
     grid-area: boton6;
     text-align: center;
+    border-style:dashed;
 }
 footer {
     text-align: center;
+    border-style:dashed;
 }
