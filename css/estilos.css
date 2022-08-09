@@ -1,0 +1,109 @@
+body {
+    background-color: #1363DF;
+}
+
+.container {  
+    display: grid;
+    grid-template-columns: 6fr 6fr 6fr;
+    grid-template-rows: 0.6fr 0.6fr 0.6fr 0.6fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "presentacion presentacion presentacion"
+      "texto_presentacion texto_presentacion texto_presentacion"
+      "boton1 boton2 boton3"
+      "boton4 boton5 boton6";
+}
+
+h1 {
+    font-family:'Roboto';
+    color: white;
+    background-color: black;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.letra{
+    color: white;
+}
+
+.presentacion {
+    color: white;
+    background-color: black;
+    grid-area: presentacion;
+    text-align: center;
+    border-style:solid;
+    border-radius: 20px;
+}
+
+.texto_presentacion {
+    grid-area: texto_presentacion;
+    text-align: center;
+}
+
+.boton1 { 
+    background-color: #18978F;
+    grid-area: boton1;
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 5px;
+}
+.contorno {
+    background-color: #06283D;
+}
+  
+.boton2 { 
+    background-color: #18978F;
+    grid-area: boton2;
+    text-align: center;
+    border-style:solid;
+    border-radius: 20px;
+    margin: 5px;
+}
+  
+.boton3 { 
+    background-color: #18978F;
+    grid-area: boton3;
+    text-align: center;
+    border-style:solid;
+    border-radius: 20px;
+    margin: 5px;
+}
+  
+.boton4 {
+    background-color: #18978F;
+    grid-area: boton4;
+    text-align: center;
+    border-style:solid;
+    border-radius: 20px;
+    margin: 5px;
+}
+  
+.boton5 {
+    background-color: #18978F;
+    grid-area: boton5;
+    text-align: center; 
+    border-style: solid;
+    border-radius: 20px;
+    margin: 5px;
+}
+  
+.boton6 { 
+    background-color: #18978F;
+    grid-area: boton6;
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 5px;
+}
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-style:solid;
+    border-radius: 20px;
+}
