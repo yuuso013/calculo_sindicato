@@ -1,5 +1,5 @@
 body {
-    background-color: #1363DF;
+    background-color: #7f5539;
 }
 
 .container {  
@@ -18,11 +18,11 @@ body {
 h1 {
     font-family:'Roboto';
     color: white;
-    background-color: black;
+
 }
 
 p {
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
 
@@ -32,78 +32,91 @@ p {
 
 .presentacion {
     color: white;
-    background-color: black;
+    background-color: #9c6644;
     grid-area: presentacion;
     text-align: center;
-    border-style:solid;
     border-radius: 20px;
+    margin: 5px;
+    padding: 15px;
 }
 
 .texto_presentacion {
     grid-area: texto_presentacion;
     text-align: center;
+    background-color: #9c6644;
+    border-radius: 20px;
+    margin: 25px;
+    padding: 15px;
 }
 
 .boton1 { 
-    background-color: #18978F;
+    background-color: #b08968;
     grid-area: boton1;
     text-align: center;
-    border-style: solid;
     border-radius: 20px;
     margin: 5px;
 }
-.contorno {
-    background-color: #06283D;
-}
   
 .boton2 { 
-    background-color: #18978F;
+    background-color: #b08968;
     grid-area: boton2;
     text-align: center;
-    border-style:solid;
     border-radius: 20px;
     margin: 5px;
 }
   
 .boton3 { 
-    background-color: #18978F;
+    background-color: #b08968;
     grid-area: boton3;
     text-align: center;
-    border-style:solid;
     border-radius: 20px;
     margin: 5px;
 }
   
 .boton4 {
-    background-color: #18978F;
+    background-color: #b08968;
     grid-area: boton4;
     text-align: center;
-    border-style:solid;
     border-radius: 20px;
     margin: 5px;
 }
   
 .boton5 {
-    background-color: #18978F;
+    background-color: #b08968;
     grid-area: boton5;
     text-align: center; 
-    border-style: solid;
     border-radius: 20px;
     margin: 5px;
 }
   
 .boton6 { 
-    background-color: #18978F;
+    background-color: #b08968;
     grid-area: boton6;
     text-align: center;
-    border-style: solid;
     border-radius: 20px;
     margin: 5px;
 }
+
+.contorno {
+    background-color: #9c6644;
+    border-radius: 12px;
+    padding: 5px;
+    margin: 2px;
+}
+
+.inf-sindicato {
+    color: white;
+    background-color: #7f5539;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px ;
+}
+
 footer {
     color: white;
-    background-color: black;
+    background-color: #9c6644;
     text-align: center;
-    border-style:solid;
+    padding: 9px;
+    margin: 6px;
     border-radius: 20px;
 }
